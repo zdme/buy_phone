@@ -35,7 +35,7 @@ $(function(){
                     name: '',
                     size: size
                 },
-                type: 'post',
+                type: 'get',
                 success: function (data) {
                     //请求数据成功并且有数据
                     if (data.success == true && data.data.length > 0) {
