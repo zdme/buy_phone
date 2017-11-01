@@ -1,0 +1,31 @@
+
+/*初始样式、共同样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul,ol,li{
+    list-style: none;
+}
+img {
+    border:0px;
+}
+
+body{
+    word-wrap:break-word;
+    margin: 0; padding: 0;font-family: Arial;background: #282828;}
+.imgmid {display:inline-block; *display:inline; *zoom: 1; height: 100%; width: 1px; margin-left:-1px; vertical-align:middle;}*/
+.cle {clear:both; width:0; height:0; display:block; overflow:hidden; font-size:0px;}
+
+.box{width:640px;height: 250px;margin: 0 auto;position: relative;overflow: hidden;}
+.img{width:640px;height: 250px;position: relative;overflow: hidden;}
+.img ul{width:10000%;height: 250px;position: absolute;left: 0;top: 0;overflow: hidden;}
+.img ul li{width:640px;height: 250px;float: left;text-align: center;overflow: hidden;}
+
+.ico{width: 100%;height:20px;position: absolute;bottom: 10px;left: 0;z-index: 10;text-align: center;font-size: 0;overflow: hidden;}
+.ico a{display: inline-block;width:20px;height:20px;background: #999;margin: 0 5px;border-radius:50%;overflow: hidden;}
+.ico a.on{background: #fff;}
