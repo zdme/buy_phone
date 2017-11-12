@@ -26,22 +26,23 @@ body{
     background:#d5d5d5;
 }
 html{
-    font-size: 20px;
+    font-size:20px;
 }
 .record{
     width:32rem;
-    margin: 0 auto;
+    margin:0 auto;
+    position:relative;
 }
 .fixed{
     width:32rem;
     height:4.3rem;
-    background: #d91d36;
-    position: fixed;
+    background:#d91d36;
+    position:fixed;
     top:0;
     left:50%;
     margin-left: -16rem;
     z-index: 10;
-}
+   }
 .fixed h2{
     float: left;
     font-size:1.5rem;
@@ -51,20 +52,24 @@ html{
     margin-left:10.3rem;
 }
 .fixed a{
-    margin:1.4rem 0 0 1.6rem;
+    margin:1.3rem 0 0 1.55rem;
     float: left;
     display: block;
-    width:0.8rem;
-    height:1.6rem;
+    width:0.9rem;
+    height:1.8rem;
     background:url(../img/back.png)no-repeat center;
     background-size: cover;
 }
+.content{
+    width:32rem;
+    padding-top: 4.3rem;
+    }
 .title{
-    margin-top:4.5rem;
-    height:3.1rem;
+    width:100%;
+    height:3.5rem;
     background:#fff;
-    padding-bottom:0.4rem;
-}
+    margin-bottom: 0.9rem;
+    }
 .title li {
     float: left;
     height:100%;
@@ -81,22 +86,21 @@ html{
 }
 .list{
     width:32rem;
-    display: block;
 }
-.content li{
-    width:29.6rem;
-    height:12.85rem;
+.list li{
+    width:32rem;
+    height:13.2rem;
     background: #fff;
-    padding:0.75rem 1.2rem 0 1.2rem;
+    padding-top:0.5rem;
     border-bottom:0.05rem solid #e2e2e2;
     border-top:0.05rem solid #e2e2e2;
-    margin-top:0.9rem;
-}
+    margin-bottom: 0.8rem;
+    }
 .up{
     width:29.6rem;
     height:8.7rem;
     padding-bottom:0.75rem;
-    border-bottom:0.05rem solid #e2e2e2;
+
 }
 .up img{
     width: 9.85rem;
@@ -106,8 +110,7 @@ html{
 }
 .up>div{
     float: left;
-    width:16.4rem;
-
+    width:17rem;
 }
 .up .text>p{
     height:1.9rem;
@@ -128,8 +131,10 @@ html{
     color: red;
 }
 .down{
+    border-top:0.05rem solid #e2e2e2;
     padding:0.5rem 0;
-    width:32rem;
+    margin-left: 1.2rem;
+    width:29.6rem;
     height:2.4rem ;
 }
 .down div:nth-child(1){
@@ -173,7 +178,7 @@ html{
     float: left;
     border-radius:0.2rem;
     display:block;
-    width:8.8rem;
+    width:8rem;
     height:0.4rem;
     background: #e6e6e6;
 }
