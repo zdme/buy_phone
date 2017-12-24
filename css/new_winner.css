@@ -62,7 +62,7 @@ body{
 }
 .content{
     width:100%;
-    padding-top:4.9rem;
+    margin-top:4.9rem;
 }
 .content li img{
     width: 13.6rem;
@@ -97,6 +97,7 @@ body{
 .content .time input{
     width: 7rem;
     height: 1rem;
+
 }
 .more{
     width:32rem;

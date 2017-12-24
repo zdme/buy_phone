@@ -30,7 +30,9 @@ body{
 }
 .all_goods{
     width:32rem;
-    margin: 0 auto;
+    top:0;
+    left:50%;
+    margin-left: -16rem;
     position: relative;
    }
 .content{
@@ -38,22 +40,22 @@ body{
     margin-top: 4.3rem;
    }
 .fixed{
-    position: fixed;
+    position:fixed;
     top:0;
     left:50%;
     margin-left: -16rem;
     width:32rem;
     height:4.3rem;
     background:#d91d36;
+
 }
 .fixed a{
-    display: block;
-    float:left;
-    width:0.8rem;
-    height:1.6rem;
-    margin:1.3rem 0 0 1.5rem;
-    background: url(../img/back.png)no-repeat center;
+    width: 0.8rem;
+    height: 1.6rem;
+    background:url(../img/back.png)no-repeat center;
     background-size: cover;
+    float:left;
+    margin:1.3rem 0 0 1.5rem;
 }
 .fixed h2{
     float: left;
@@ -61,14 +63,10 @@ body{
     color: #ffffff;
     line-height:4.3rem;
     margin-left: 10.3rem;
-    font-weight: normal;
-}
-.content{
-    width: 100%;
-    margin-top:4.9rem;
 }
 .goods{
-    width: 100%;
+    padding-right:0.4rem;
+    width:31.8rem;
 }
 .goods li {
     background: #ffffff;
@@ -78,62 +76,63 @@ body{
     height:18.3rem;
     margin:0 0 0.4rem 0.4rem;
 }
-.goods li>a>img{
-    float:left;
-    display: block;
-    width: 13.6rem;
+.goods li>img{
+    float: left;
+    width:13.6rem;
     height: 12rem;
 }
 .goods>li>p{
-    float: left;
     font-size:1.2rem;
     color: #5f3c1c;
     margin-top:0.7rem;
 }
-.goods .down{
-    float: left;
-    width: 13.5rem;
-    height:2rem;
-    margin-top:0.7rem;
+.goods>li div img{
+    width: 4.5rem;
+    height: 1.9rem;
 }
-.down .left{
-    float:left;
+.goods .left{
+    float: left;
     width:8.3rem;
     height:2rem;
 }
-.goods .left p{
-    height: 0.4rem;
-    width: 8.3rem;
+.goods .down{
+    margin-top:0.75rem;
+}
+.goods .down p{
     margin-top:0.3rem;
     font-size:0.9rem;
     color: #aaabaf;
 }
-.goods .left p:nth-child(1)>span{
-    width: 8.3rem;
-    height: 0.4rem;
-    float: left;
-    background: #cccccc;
-    border-radius: 0.2rem;
-}
-.goods .left p:nth-child(1)>span>span{
-        height: 0.4rem;
-    float: left;
-    background: #ffad13;
-    border-radius: 0.2rem;
-}
-i{
-    color: red;
-    font-style: normal;
-}
-.goods .left p:nth-child(2)>span{
+.goods .left p span{
     color:red;
     margin-left:1rem;
 }
-.goods .down img {
+.goods li a {
     width:4.5rem;
-    height:1.8rem;
+    height:1.9rem;
     display: block;
     float:right;
     margin-left:0.5rem;
+
+}
+.container {
+    background: #ffffff
+    width:8.2rem;
+    height:0.4rem;
+    margin:0 auto
+}
+.bar-unfill {
+    background: #cccccc;
+    height:0.4rem;
+    display:block;
+    width:8.3rem;
+    border-radius:0.4rem;
+}
+.bar-fill {
+    height:0.4rem;
+    display:block;
+    background:#45c9a5;
+    width:76%;
+    border-radius:0.4rem;
 }
 
